@@ -10,7 +10,7 @@ class CashWithdrawal extends Component {
   }
 
   updateBalance = value => {
-    this.setstate(prevState => ({balance: prevState.balance - value}))
+    this.setState(prevState => ({balance: prevState.balance - value}))
   }
 
   render() {
